@@ -1,6 +1,12 @@
-import { component$, useSignal } from '@builder.io/qwik';
-import { routeLoader$, Form, routeAction$ } from '@builder.io/qwik-city';
- 
+import { component$, useSignal, useTask$, useStylesScoped$, } from '@builder.io/qwik';
+import {
+  routeLoader$,
+  Form,
+  routeAction$,
+  server$,
+} from '@builder.io/qwik-city';
+import styles from "./index.css?inline";
+
 export const useDadJoke = routeLoader$(async () => {
   const response = await fetch('https://icanhazdadjoke.com/', {
     headers: { Accept: 'application/json' },
@@ -17,11 +23,18 @@ export const useJokeVoteAction = routeAction$((props) => {
 });
  
 export default component$(() => {
+  useStylesScoped$(styles);
   const isFavoriteSignal = useSignal(false);
   // Calling our `useDadJoke` hook, will return a reactive signal to the loaded data.
   const dadJokeSignal = useDadJoke();
   const favoriteJokeAction = useJokeVoteAction();
- 
+  useTask$(({ track }) => {
+    track(() => isFavoriteSignal.value);
+    console.log('FAVORITE (isomorphic)', isFavoriteSignal.value);
+    server$(() => {
+      console.log('FAVORITE (server)', isFavoriteSignal.value);
+    })();
+  });
   return (
     <section class="section bright">
       <p>{dadJokeSignal.value.joke}</p>
