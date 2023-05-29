@@ -1,9 +1,9 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 
-import Hero from '~/components/tsx-components/hero/hero';
-import Infobox from '~/components/tsx-components/infobox/infobox';
-import Starter from '~/components/tsx-components/medium-a-section/next-steps';
+import Hero from '~/components/tsx/hero/hero';
+import Infobox from '~/components/tsx/infobox/infobox';
+import Starter from '~/components/tsx/medium-a-section/next-steps';
 
 export default component$(() => {
   return (

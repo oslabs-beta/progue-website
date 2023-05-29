@@ -1,8 +1,8 @@
 import { component$, Slot, useStyles$ } from '@builder.io/qwik';
 import { routeLoader$ } from '@builder.io/qwik-city';
 
-import Header from '~/components/tsx-components/header/header';
-import Footer from '~/components/tsx-components/footer/footer';
+import Header from '~/components/tsx/header/header';
+import Footer from '~/components/tsx/footer/footer';
 
 import styles from './styles.css?inline';
 

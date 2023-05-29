@@ -1,4 +1,5 @@
 import type { DocumentHead } from '@builder.io/qwik-city';
+import Infobox from '~/components/tsx/infobox/infobox';
 import { component$, 
   // useSignal, 
   // useTask$, 
@@ -16,6 +17,23 @@ export default component$(() => {
     <section class="section bright">
       <p>Documentation</p>
       instructions go here
+
+      <div class="container container-flex">
+        <Infobox>
+          <div q:slot="title" class="icon icon-cli">
+            Quick start guide
+          </div>
+          <>
+            <p>
+              <code>npm install something</code>
+              <br />
+              Allows us to add tutorial
+            </p>
+          </>
+        </Infobox>
+      </div>
+
+
     </section>
   );
 });
