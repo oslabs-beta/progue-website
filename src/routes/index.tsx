@@ -1,9 +1,9 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 
-import Hero from '~/components/starter/hero/hero';
-import Infobox from '~/components/starter/infobox/infobox';
-import Starter from '~/components/starter/medium-a-section/next-steps';
+import Hero from '~/components/tsx-components/hero/hero';
+import Infobox from '~/components/tsx-components/infobox/infobox';
+import Starter from '~/components/tsx-components/medium-a-section/next-steps';
 
 export default component$(() => {
   return (
@@ -72,11 +72,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'kafkaPRAAG: a visualization tool for Apache Kafka',
   meta: [
     {
       name: 'description',
-      content: 'Qwik site description',
+      content: 'A visualizaton tool for Apache Kafka.',
     },
   ],
 };
