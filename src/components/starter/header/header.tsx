@@ -13,6 +13,21 @@ export default component$(() => {
         </div>
         <ul>
           <li>
+            <a href="/">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/docs">
+              Docs
+            </a>
+          </li>
+          <li>
+            <a href="/team">
+              Team
+            </a>
+          </li>
+          <li>
             <a href="/joke">
               Jokes
             </a>
