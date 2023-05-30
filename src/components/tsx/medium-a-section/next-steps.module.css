@@ -1,6 +1,5 @@
 .gettingstarted {
   display: flex;
-  color: white;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -18,9 +17,6 @@
 }
 .gettingstarted .hint {
   font-size: 0.8rem;
-}
-.gettingstarted .hint a {
-  color: var(--qwik-dark-purple);
 }
 
 @media screen and (min-width: 768px) {

@@ -13,29 +13,9 @@ export default component$(() => {
 
 
       <div class="container container-flex">
-        <Infobox>
-          <div q:slot="title" class="icon icon-cli">
-            More info
-          </div>
-          <>
-            <p>
-              <code>tbd</code>
-              <br />
-              Allows us to add tutorial
-            </p>
-          </>
-        </Infobox>
+
 
         <div>
-          <Infobox>
-            <div q:slot="title" class="icon icon-apps">
-              Example
-            </div>
-            <p>
-              Here's another example!
-            </p>
-          </Infobox>
-
           <Infobox>
             <div q:slot="title" class="icon icon-community">
               Contact
