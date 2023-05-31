@@ -3,7 +3,7 @@ import styles from './medium-a-section.module.css';
 
 export default component$(() => {
   return (
-    <div class="container container-purple container-center">
+    <div>
       <h2>
         Want to
         <br />

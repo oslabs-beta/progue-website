@@ -1,11 +1,12 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,ts,tsx}"],
-  theme: {
-    extend: {},
-  },
   plugins: [require("daisyui")],
+
+  // daisyUI config
   daisyui: {
-    themes: ["garden", "dark"],
+    styled: true,
+    themes: "garden",
+    rtl: false,
+    prefix: "",
+    darkTheme: "garden",
   },
 }
