@@ -4,6 +4,7 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 import Hero from '~/components/tsx/hero/hero';
 import Infobox from '~/components/tsx/infobox/infobox';
 import Starter from '~/components/tsx/medium-a-section/next-steps';
+import AboutCarousel from '~/components/tsx/about-carousel/about-carousel';
 
 export default component$(() => {
   return (
@@ -11,10 +12,10 @@ export default component$(() => {
       <Hero />
       <Starter />
 
+      <AboutCarousel />
+
 
       <div class="container container-flex">
-
-
         <div>
           <Infobox>
             <div q:slot="title" class="icon icon-community">

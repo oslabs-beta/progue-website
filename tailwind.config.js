@@ -1,13 +1,10 @@
 module.exports = {
-  //...
-
-  // add daisyUI plugin
   plugins: [require("daisyui")],
 
-  // daisyUI config (optional)
+  // daisyUI config
   daisyui: {
     styled: true,
-    themes: true,
+    themes: "garden",
     rtl: false,
     prefix: "",
     darkTheme: "garden",
