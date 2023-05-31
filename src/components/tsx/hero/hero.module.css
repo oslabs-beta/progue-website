@@ -7,11 +7,29 @@
   height: 450px;
   justify-content: center;
   gap: 40px;
+  margin-top: 20vh;
 }
 
 .hero p {
-  margin: 0;
+  margin-top: 0;
   font-size: 1rem;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+}
+
+.article {
+  text-align: center;
+  width: 40vw;
+}
+
+.imgbox {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button-group {
