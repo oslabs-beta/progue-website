@@ -5,7 +5,7 @@ export default component$(() => {
   return (
     <footer>
       <div class="container">
-        <a href="https://www.builder.io/" target="_blank" class={styles.anchor}>
+        <a href="https://github.com/oslabs-beta/progue-for-kafka" target="_blank" class={styles.anchor}>
           <span>© 2023 kafkaPRAAG team. All Rights Reserved.</span>
         </a>
       </div>
