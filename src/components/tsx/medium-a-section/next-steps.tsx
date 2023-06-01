@@ -6,7 +6,7 @@ export default component$(() => {
       <div class="box-border max-md:max-w-xs card w-96 max-md:w-full bg-base-100 shadow-xl border-2 border-primary m-8">
         <div class="card-body">
           <h2 class="card-title text-primary">Secure</h2>
-          <p>
+          <p class="text-slate-700 font-normal">
             kafkaPRAAG uses NextAuth's server-only JWT authentication for
             tab-synced, auto-revalidated access to your Kafka metrics.
           </p>
@@ -23,7 +23,7 @@ export default component$(() => {
       <div class="box-border max-md:max-w-xs card w-96 max-md:w-full bg-base-100 shadow-xl border-2 border-secondary m-8">
         <div class="card-body">
           <h2 class="card-title text-secondary">Reliable</h2>
-          <p>
+          <p class="text-slate-700 font-normal">
             Employing Jolokia as a JMX-HTTP bridge, kafkaPRAAG uses a REST-like
             protocol to fetch data from an mBeanServer backend.
           </p>
@@ -40,7 +40,7 @@ export default component$(() => {
       <div class="box-border max-md:max-w-xs card w-96 max-md:w-full bg-base-100 shadow-xl border-2 border-accent m-8">
         <div class="card-body">
           <h2 class="card-title text-accent">Versatile</h2>
-          <p>
+          <p class="text-slate-700 font-normal">
             Through Docker containerization, kafkaPRAAG can be used on macOS,
             Windows, or Linux - and with any Kafka cluster.
           </p>
@@ -57,7 +57,7 @@ export default component$(() => {
       <div class="box-border max-md:max-w-xs card w-96 max-md:w-full bg-base-100 shadow-xl border-2 border-primary m-8">
         <div class="card-body">
           <h2 class="card-title text-primary">Future-friendly</h2>
-          <p>
+          <p class="text-slate-700 font-normal">
             Built on Next.js 13, kafkaPRAAG utilizes server-side rendering to
             deliver fast, constant re-render of your data in real.
           </p>
