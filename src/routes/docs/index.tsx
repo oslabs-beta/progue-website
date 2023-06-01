@@ -4,10 +4,10 @@ import { component$ } from "@builder.io/qwik";
 
 export default component$(() => {
   return (
-    <section>
-      <div class="container container-flex">
+    <section class="">
+      <div class="flex justify-center">
         <Infobox>
-          <h1 class="text-5xl font-bold mt-6 ml-4">Get started</h1>
+          <h1 class="text-5xl font-bold mt-6 ml-4 mb-8">Get started</h1>
           <>
             <p>
               <code>npm install something</code>
