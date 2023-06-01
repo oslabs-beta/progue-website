@@ -9,9 +9,10 @@ export default component$(() => {
         <div class="hero-content flex-col lg:flex-row">
           <div class="text-center lg:text-left">
             <h1 class="text-5xl font-bold">
-              Monitor your Kafka cluster securely
+              Monitor your Kafka cluster{" "}
+              <span class="font-medium">securely</span>
             </h1>
-            <p class="text-slate-700">
+            <p class="text-slate-700 mt-6">
               As a top choice of event store and stream-processing platform,
               Apache Kafka offers developers a low-latency platform for data
               feeds. But what if you need to visualize and troubleshoot that
@@ -23,7 +24,7 @@ export default component$(() => {
               and the ability to manipulate your producers and message rate.
             </p>
             <p class="text-slate-700">Got any questions? We've got answers!</p>
-            <div class="btn-group">
+            <div class="btn-group mt-6 sm:ml-4">
               <button class="btn btn-primary">
                 <a href="https://github.com/oslabs-beta/progue-for-kafka">
                   Download

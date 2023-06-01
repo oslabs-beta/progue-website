@@ -5,7 +5,7 @@ import TeamMember from "~/components/tsx/team-member/team-member";
 export default component$(() => {
   return (
     <section>
-      <p>Meet The Team</p>
+      <h1 class="text-5xl font-bold mt-6 ml-4">Meet the team</h1>
       <div class="flex flex-col sm:grid sm:grid-cols-2">
         <TeamMember
           github="https://github.com/ckim722"
