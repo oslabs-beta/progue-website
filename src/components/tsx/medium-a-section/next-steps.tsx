@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 
 export default component$(() => {
   return (
-    <article class="flex max-md:flex-col items-center justify-between">
+    <article class="flex max-md:flex-col items-center justify-between overflow-x-auto">
       <div class="box-border max-md:max-w-xs card w-96 max-md:w-full bg-base-100 shadow-xl border-2 border-primary m-8">
         <div class="card-body">
           <h2 class="card-title text-primary">Secure</h2>
