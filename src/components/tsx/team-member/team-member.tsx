@@ -1,11 +1,20 @@
 import { component$ } from "@builder.io/qwik";
+import { Image } from "@unpic/qwik";
 
 export default component$(props => {
   return (
     <div class="card w-96 glass text-slate-700 sm:m-16 shadow-2xl">
-      <div class="card-body">
+      <div class="card-body border-2 border-accent rounded-xl">
+        <Image
+          src={props.src}
+          layout="constrained"
+          width={80}
+          height={60}
+          alt="image of kafka visualizer"
+        />
+
         <h2 class="card-title">{props.name}</h2>
-        <p>{props.bio}</p>
+        <p class="">{props.bio}</p>
         <div class="card-actions justify-end">
           <a href={props.github}>
             <svg

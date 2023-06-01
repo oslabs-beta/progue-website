@@ -1,31 +1,32 @@
-import { component$ } from '@builder.io/qwik';
-import { PraagLogo } from '../icons/praag';
-import styles from './header.module.css';
+import { component$ } from "@builder.io/qwik";
+// import { PraagLogo } from "../icons/praag";
+import { Image } from "@unpic/qwik";
+import styles from "./header.module.css";
 
 export default component$(() => {
   return (
     <header class={styles.header}>
-      <div class={['container', styles.wrapper]}>
-        <div class={styles.logo}>
-          <a href="/" title="qwik">
-            <PraagLogo height={50} width={143} />
-          </a>
-        </div>
-        <ul>
+      <div class={["container", styles.wrapper]}>
+        <a href="/" title="qwik">
+          <Image
+            src="images/kafkaPRAAG-logo-transparent.png"
+            onerror="this.onerror=null; this.src='../images/kafkaPRAAG-logo-transparent.png'"
+            // layout="constrained"
+            width={300}
+            height={20}
+            alt="image of kafka logo"
+            class="m-8"
+          />
+        </a>
+        <ul class="text-slate-500 font-normal">
           <li>
-            <a href="/">
-              Home
-            </a>
+            <a href="/">Home</a>
           </li>
-          <li>
-            <a href="/docs">
-              Docs
-            </a>
+          <li class="font-light">
+            <a href="/docs">Docs</a>
           </li>
-          <li>
-            <a href="/team">
-              Team
-            </a>
+          <li class="font-light">
+            <a href="/team">Team</a>
           </li>
         </ul>
       </div>
