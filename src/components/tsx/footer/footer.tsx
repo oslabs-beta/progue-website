@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 
 export default component$(() => {
   return (
-    <footer class="footer p-10 text-slate-700">
+    <footer class="footer p-10 text-slate-700 flex justify-evenly box-border sm:mt-24">
       <div>
         <span class="footer-title">About</span>
         <a class="link link-hover" href="https://medium.com/" target="_blank">
