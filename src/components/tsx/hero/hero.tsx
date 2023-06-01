@@ -1,4 +1,5 @@
 import { component$ } from "@builder.io/qwik";
+import { Image } from "@unpic/qwik";
 import styles from "./hero.module.css";
 
 export default component$(() => {
@@ -7,22 +8,21 @@ export default component$(() => {
       <div class="hero min-h-screen bg-base-100">
         <div class="hero-content flex-col lg:flex-row">
           <div class="text-center lg:text-left">
-            <h1 class="text-5xl font-bold">Smth smth smth.</h1>
+            <h1 class="text-5xl font-bold">
+              Monitor your Kafka cluster securely
+            </h1>
             <p class="text-slate-700">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              As a top choice of event store and stream-processing platform,
+              Apache Kafka offers developers a low-latency platform for data
+              feeds. But what if you need to visualize and troubleshoot that
+              data?
             </p>
             <p class="text-slate-700">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              That's where kafkaPRAAG comes in. We are a real-time monitoring
+              tool for your Kafka clusters, allowing constantly updating metrics
+              and the ability to manipulate your producers and message rate.
             </p>
-            <p class="text-slate-700">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
+            <p class="text-slate-700">Got any questions? We've got answers!</p>
             <div class="btn-group">
               <button class="btn btn-primary">
                 <a href="https://github.com/oslabs-beta/progue-for-kafka">
@@ -34,8 +34,14 @@ export default component$(() => {
               </button>
             </div>
           </div>
-          <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-            <div class="card-body h-64"> img here</div>
+          <div class="card flex-shrink-0 w-full max-w-sm bg-base-100">
+            <Image
+              src="images/kafkascreen.png"
+              layout="constrained"
+              width={800}
+              height={600}
+              alt="image of kafka visualizer"
+            />
           </div>
         </div>
       </div>
