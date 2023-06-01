@@ -6,7 +6,7 @@ export default component$(props => {
     <div class="card w-96 glass text-slate-700 sm:m-16 shadow-2xl">
       <div class="card-body border-2 border-accent rounded-xl">
         <Image
-          src="images/kafkascreen.png"
+          src={props.src}
           layout="constrained"
           width={80}
           height={60}
@@ -14,6 +14,7 @@ export default component$(props => {
         />
 
         <h2 class="card-title">{props.name}</h2>
+        <p class="">{props.bio}</p>
         <div class="card-actions justify-end">
           <a href={props.github}>
             <svg

@@ -1,6 +1,5 @@
 import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
-import styles from "./hero.module.css";
 
 export default component$(() => {
   return (
