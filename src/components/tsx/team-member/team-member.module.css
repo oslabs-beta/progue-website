@@ -1,0 +1,8 @@
+.personContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.personDesc {
+  display: flex;
+}
