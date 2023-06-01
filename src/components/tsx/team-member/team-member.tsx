@@ -3,13 +3,14 @@ import { Image } from "@unpic/qwik";
 
 export default component$(props => {
   return (
-    <div class="card w-96 glass text-slate-700 sm:m-16 shadow-2xl">
+    <div class="card w-96 glass text-slate-700 sm:m-16 shadow-2xl max-w-xs sm:max-w-xl mb-8 sm:mb-0">
       <div class="card-body border-2 border-accent rounded-xl">
         <Image
           src={props.src}
+          class="rounded-full"
           layout="constrained"
           width={80}
-          height={60}
+          height={80}
           alt="image of kafka visualizer"
         />
 
