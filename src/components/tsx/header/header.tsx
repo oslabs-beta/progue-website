@@ -9,6 +9,7 @@ export default component$(() => {
         <a href="/">
           <Image
             src="images/kafkaPRAAG-logo-transparent.png"
+            // @ts-ignore
             onerror="this.onerror=null; this.src='../images/kafkaPRAAG-logo-transparent.png'"
             width={300}
             height={20}

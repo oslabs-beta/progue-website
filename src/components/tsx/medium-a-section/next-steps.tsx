@@ -59,7 +59,7 @@ export default component$(() => {
           <h2 class="card-title text-primary">Future-friendly</h2>
           <p class="text-slate-700 font-normal">
             Built on Next.js 13, kafkaPRAAG utilizes server-side rendering to
-            deliver fast, constant re-render of your data in real.
+            deliver fast, constant re-renders of your data in real time.
           </p>
           <div class="card-actions justify-end">
             <button class="btn btn-primary">

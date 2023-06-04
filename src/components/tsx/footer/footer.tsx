@@ -13,7 +13,7 @@ export default component$(() => {
           href="https://qwik.builder.io/"
           target="_blank"
         >
-          Learn more about Qwik
+          Site built with Qwik. Learn more here
         </a>
       </div>
       <div>
