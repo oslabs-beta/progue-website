@@ -21,6 +21,7 @@
     "preview": "qwik build preview && vite preview --open",
     "serve": "node server/entry.express",
     "start": "vite --open --mode ssr",
+    "test:unit": "vitest",
     "test.unit": "vitest components",
     "test.unit.ui": "vitest --ui components",
     "qwik": "qwik"
