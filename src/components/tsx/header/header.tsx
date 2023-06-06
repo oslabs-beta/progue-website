@@ -8,9 +8,9 @@ export default component$(() => {
       <div class={["container", styles.wrapper]}>
         <a href="/">
           <Image
-            src="images/kafkaPRAAG-logo-transparent.png"
+            src="https://elasticbeanstalk-us-east-1-506029946825.s3.amazonaws.com/kafkaPRAAG-logo-transparent.png"
             // @ts-ignore
-            onerror="this.onerror=null; this.src='../images/kafkaPRAAG-logo-transparent.png'"
+            onerror="this.onerror=null; this.src='https://elasticbeanstalk-us-east-1-506029946825.s3.amazonaws.com/kafkaPRAAG-logo-transparent.png'"
             width={300}
             height={20}
             alt="image of kafka logo"
