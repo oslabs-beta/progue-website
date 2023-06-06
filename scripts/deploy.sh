@@ -18,6 +18,6 @@ echo "Processing deploy.sh"
     # Upload zip file to s3 bucket
     aws s3 cp splash-prod-deploy.zip s3://$EB_BUCKET/splash-prod-deploy.zip
     # Create a new application version with new Dockerrun
-    aws elasticbeanstalk create-application-version --application-name kafkaPRAAG splash --version-label $GITHUB_SHA --source-bundle S3Bucket=$EB_BUCKET,S3Key=splash-prod-deploy.zip
+    aws elasticbeanstalk create-application-version --application-name "kafkaPRAAG splash" --version-label $GITHUB_SHA --source-bundle S3Bucket=$EB_BUCKET,S3Key=splash-prod-deploy.zip
     # Update environment to use new version number
     aws elasticbeanstalk update-environment --environment-name KafkaPRAAGsplash-env --version-label $GITHUB_SHA
