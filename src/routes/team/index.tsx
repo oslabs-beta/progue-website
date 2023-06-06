@@ -14,7 +14,7 @@ export default component$(() => {
           github="https://github.com/ckim722"
           linkedIn="https://www.linkedin.com/in/catkim722/"
           name="Cat Kim"
-          src="../images/cat.jpg"
+          src="https://elasticbeanstalk-us-east-1-506029946825.s3.amazonaws.com/cat.jpg"
           bio="crazy about React"
         />
         <TeamMember
@@ -22,7 +22,7 @@ export default component$(() => {
           github="https://github.com/sherrii"
           linkedIn="https://www.linkedin.com/in/sherryl2523/"
           name="Sherry Lu"
-          src="../images/sherry.png"
+          src="https://elasticbeanstalk-us-east-1-506029946825.s3.amazonaws.com/sherry.png"
           bio="software developer"
         />
         <TeamMember
@@ -30,7 +30,7 @@ export default component$(() => {
           github="https://github.com/hankfontaine/"
           linkedIn="https://www.linkedin.com/in/hank-mcgill/"
           name="Hank McGill"
-          src="../images/hank.jpg"
+          src="https://elasticbeanstalk-us-east-1-506029946825.s3.amazonaws.com/hank.jpg"
           bio="ask me about NextAuth or accessibilty"
         />
         <TeamMember
@@ -38,7 +38,7 @@ export default component$(() => {
           github="https://github.com/camina-drummer"
           linkedIn="https://www.linkedin.com/in/wurichard/"
           name="Richard Wu"
-          src="../images/richard.jpg"
+          src="https://elasticbeanstalk-us-east-1-506029946825.s3.amazonaws.com/richard.jpg"
           bio="cuckoo for Kafka"
         />
       </div>

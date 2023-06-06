@@ -1,6 +1,6 @@
-# kafkaPRAAG
+![kafkaPRAAG-logo-transparent](https://github.com/oslabs-beta/progue-website/assets/97624308/4c5f6488-44bc-437a-92df-cc4649bf5217)
 
-Welcome to the official splash page for kafkaPRAAG. All will be revealed!
+Welcome to the official splash page for kafkaPRAAG! All will be revealed!
 
 ## The team
 
