@@ -6,9 +6,9 @@ echo "Processing deploy.sh"
     # Log in to ECR
     eval $(aws ecr get-login --no-include-email --region us-east-1)
     # Build docker image based on our production Dockerfile
-    docker build -t kafkapraag/splash .
+    docker build -t kafkapraag/splash-prod .
     # tag the image with the GitHub SHA
-    docker tag kafkapraag/splash:latest public.ecr.aws/v8w6v4z1/splash:$GITHUB_SHA
+    docker tag kafkapraag/splash-prod:latest public.ecr.aws/v8w6v4z1/splash:$GITHUB_SHA
     # Push built image to ECS
     docker push public.ecr.aws/v8w6v4z1/splash:$GITHUB_SHA
     # Use the linux sed command to replace the text '<VERSION>' in our Dockerrun file with the GitHub SHA key
