@@ -8,7 +8,7 @@ export default component$(() => {
         <div class="hero-content flex-col lg:flex-row">
           <div class="text-center lg:text-left">
             <h1 class="text-5xl font-bold">
-              Monitor your Kafka cluster !!!!!{" "}
+              Monitor your Kafka cluster ?!?{" "}
               <span class="font-medium">securely</span>
             </h1>
             <p class="text-slate-700 mt-6">
